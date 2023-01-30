@@ -1,0 +1,52 @@
+.carousel {
+    width: 650px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    &__counter {
+        display: flex;
+        width: 180px;
+        align-items: center;
+        font-size: 24px;
+        color: rgba(0,0,0,.5);
+    }
+
+    &__slider-prev {
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    & #current{
+        font-size: 48px;
+        font-weight: 700;
+        color: #000;
+    }
+
+    &__slider-next {
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+    &__slider-wrapper {
+        width: 100%;
+        margin-top: 15px;
+        box-shadow: 0 4px 30px rgb(0 0 0 / 25%);
+    }
+
+    &__slider-inner {
+    }
+
+    &__slide {
+        width: 100%;
+        height: 390px;
+    }
+
+    &__img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
